@@ -3,8 +3,14 @@ package ru.geekbrains.slackintegrationservice.config;
 
 import com.slack.api.bolt.App;
 import com.slack.api.bolt.AppConfig;
+import com.slack.api.methods.request.chat.ChatPostMessageRequest;
+import com.slack.api.model.event.MessageBotEvent;
+import com.slack.api.model.event.MessageEvent;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import javax.annotation.PostConstruct;
+
 
 @Configuration
 public class SlackConfig {
@@ -28,11 +34,12 @@ public class SlackConfig {
     @Bean
     public AppConfig loadOAuthConfig() {
         return AppConfig.builder()
-                .singleTeamBotToken(null)
+//                .singleTeamBotToken(null)
+                .singleTeamBotToken(System.getenv("SLACK_BOT_TOKEN"))
                 .clientId(System.getenv("SLACK_CLIENT_ID"))
                 .clientSecret(System.getenv("SLACK_CLIENT_SECRET"))
                 .signingSecret(System.getenv("SLACK_SIGNING_SECRET"))
-                .scope("app_mentions:read,channels:history,channels:read,chat:write")
+                .scope("app_mentions:read,channels:history,channels:read,groups:history,groups:read,incoming-webhook")
                 .oauthInstallPath("/slack/install")
                 .oauthRedirectUriPath("/slack/oauth_redirect")
                 .build();
@@ -44,10 +51,18 @@ public class SlackConfig {
         if (config.getClientId() != null) {
             app.asOAuthApp(true);
         }
+
         app.command("/hello", (req, ctx) -> {
             return ctx.ack(r -> r.text("Thanks!"));
         });
+
         return app;
     }
-
 }
+
+
+//"id": "C04JL0F56G7",
+//"name": "тестовое-приложение",
+
+
+
