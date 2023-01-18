@@ -16,6 +16,7 @@
       <module name="BlizzardIntegrationService" target="11" />
       <module name="Routing_Service" target="11" />
       <module name="SlackIntegrationService" target="11" />
+      <module name="WowVendorTeamHelper" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +25,7 @@
       <module name="Blizzard_integration" options="-parameters" />
       <module name="Routing_Service" options="-parameters" />
       <module name="SlackIntegrationService" options="-parameters" />
+      <module name="WowVendorTeamHelper" options="-parameters" />
     </option>
   </component>
 </project>

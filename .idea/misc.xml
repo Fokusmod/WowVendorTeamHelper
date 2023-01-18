@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/Ui_Service/pom.xml" />
         <option value="$PROJECT_DIR$/SlackIntegrationService/pom.xml" />
         <option value="$PROJECT_DIR$/BlizzardIntegrationService/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
