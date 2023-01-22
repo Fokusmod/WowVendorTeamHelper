@@ -6,6 +6,11 @@
 	<modules>
 		<module>BlizzardIntegrationService</module>
 		<module>SlackIntegrationService</module>
+		<module>Auth-Service</module>
+		<module>Core-Service</module>
+		<module>Front-Service</module>
+		<module>Gate-Way</module>
+
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -19,7 +24,7 @@
 	<name>WowVendorTeamHelper</name>
 	<description>Spring Boot project</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
