@@ -23,11 +23,6 @@
         </dependency>
         <dependency>
             <groupId>com.slack.api</groupId>
-            <artifactId>bolt</artifactId>
-            <version>1.27.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.slack.api</groupId>
             <artifactId>bolt-servlet</artifactId>
             <version>1.27.3</version>
         </dependency>
