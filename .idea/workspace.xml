@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38295038-a1d8-4fc8-8146-602e661ff973" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/SlackIntegrationService/migration/redis-compose/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/enums/TeamChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/model/MyMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/repository/MessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlackIntegrationService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SlackIntegrationService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/SlackIntegrationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/SlackIntegrationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/config/SlackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/config/SlackConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/controller/SlackAppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/controller/SlackAppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/controller/SlackAppOAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/controller/SlackAppOAuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/java/ru/geekbrains/slackintegrationservice/services/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlackIntegrationService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SlackIntegrationService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,36 +52,36 @@
     </option>
   </component>
   <component name="ProjectId" id="2KFLDi2LUUVMMQydYCVukusXsBT" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Java Project/WowVendorTeamHelper/SlackIntegrationService/migration/redis&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;cec4b08113007f3b80522bf2b1e98d12&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "G:/Java Project/WowVendorTeamHelper",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "spring.configuration.checksum": "cec4b08113007f3b80522bf2b1e98d12"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Java Project\WowVendorTeamHelper\SlackIntegrationService\migration\redis" />
@@ -292,6 +280,8 @@
       <workItem from="1674574220447" duration="11343000" />
       <workItem from="1674586922062" duration="10005000" />
       <workItem from="1674599808133" duration="11439000" />
+      <workItem from="1674688066039" duration="85000" />
+      <workItem from="1674688174643" duration="91000" />
     </task>
     <task id="LOCAL-00001" summary="Test Api integration">
       <created>1673618214200</created>
