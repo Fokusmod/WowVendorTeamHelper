@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Auth-Service/Auth-Service.iml" filepath="$PROJECT_DIR$/Auth-Service/Auth-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlizzardIntegrationService/BlizzardIntegrationService.iml" filepath="$PROJECT_DIR$/BlizzardIntegrationService/BlizzardIntegrationService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core-Service/Core-Service.iml" filepath="$PROJECT_DIR$/Core-Service/Core-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Front-Service/Front-Service.iml" filepath="$PROJECT_DIR$/Front-Service/Front-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gate-Way/Gate-Way.iml" filepath="$PROJECT_DIR$/Gate-Way/Gate-Way.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlackIntegrationService/SlackIntegrationService.iml" filepath="$PROJECT_DIR$/SlackIntegrationService/SlackIntegrationService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WowVendorTeamHelper.iml" filepath="$PROJECT_DIR$/.idea/WowVendorTeamHelper.iml" />
+    </modules>
+  </component>
+</project>
