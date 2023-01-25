@@ -1,0 +1,20 @@
+server:
+  port: 8189
+  servlet:
+    context-path: /core-service
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
+    password: postgres
+jwt:
+  secret: h4f8093h4f983yhrt9834hr0934hf0hf493g493gf438rh438th34g34g
+integrations:
+  auth-service:
+    url: http://localhost:5555/auth
